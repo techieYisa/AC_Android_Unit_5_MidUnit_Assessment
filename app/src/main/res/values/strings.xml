@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Mid-Unit 5 Practical Assessment</string>
+    <string name="user_image_desc">User Image</string>
+    <string name="refresh_menu_action_title">Refresh</string>
+    <string name="no_internet_msg">No internet connection</string>
+    <string name="zero_users_returned_msg">Unable to retrieve users from network</string>
+</resources>

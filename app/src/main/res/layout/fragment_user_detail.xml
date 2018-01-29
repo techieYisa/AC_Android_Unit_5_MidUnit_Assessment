@@ -1,0 +1,68 @@
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    tools:context="nyc.c4q.mid_unit_5_practical_assessment.ui.detail.UserDetailFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/text_margin">
+
+        <ImageView
+            android:id="@+id/user_detail_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/user_image_desc"
+            android:scaleType="fitCenter" />
+
+        <TextView
+            android:id="@+id/user_detail_name"
+            style="?android:textAppearanceLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <!-- Quick way to add a horizontal line across the screen -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="@dimen/text_margin"
+            android:layout_marginTop="@dimen/text_margin"
+            android:background="@color/colorPrimaryDark" />
+
+        <TextView
+            android:id="@+id/user_detail_email"
+            style="?android:textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/user_detail_cell"
+            style="?android:textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/user_detail_address"
+            style="?android:textAppearanceSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="@dimen/text_margin"
+            android:layout_marginTop="@dimen/text_margin"
+            android:background="@color/colorPrimaryDark" />
+
+        <TextView
+            android:id="@+id/user_detail_dob"
+            style="?android:textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>
