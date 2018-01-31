@@ -7,7 +7,8 @@
 
 Please be aware that this solution code represents way, way more than anyone
 could be expected to produce in 3 hours. This is intended as a reference
-material, with all the bonuses included and tons of comments.
+material, with all the bonuses included, fairly strict separation of concerns,
+and tons of comments.
 
 This solution code only utilizes Android components/libraries covered so
 far in class. That means no RxJava or Dagger2 in this code, as those are
