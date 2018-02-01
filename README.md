@@ -13,3 +13,12 @@ This solution code only utilizes Android components/libraries covered so
 far in class. That means no RxJava or Dagger2 in this code, as those are
 advanced concepts that would likely obscure the concepts this assessment
 is testing.
+
+Here is a diagram of how the different classes in the solution code
+interact with each other. Please note that there is no single right way
+to structure your code - it's OK if your code is different than this!
+This is simply one option, which has some benefits and some drawbacks.
+The goal is not for you to copy a particular structure, but for you to
+think about structure and do what makes sense for your projects.
+
+![code diagram](code-diagram.png)
